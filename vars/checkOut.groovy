@@ -1,4 +1,4 @@
 def checkOut(repoUrl) {
-    git branch: 'main',
+    git branch: 'master',
     url: '${repoUrl}'
 }
